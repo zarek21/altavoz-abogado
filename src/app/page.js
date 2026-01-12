@@ -4,6 +4,8 @@ import ContactSection from "@/app/components/ContactSection";
 import ServicesSection from "@/app/components/ServicesSection";
 import AboutSection from "@/app/components/AboutSection";
 import TeamSection from "@/app/components/TeamSection";
+import TestimonialsSection from "@/app/components/TestimonialsSection";
+import MapSection from "@/app/components/MapSection";
 
 export default function Home() {
   return (
@@ -65,8 +67,12 @@ export default function Home() {
 
       <TeamSection />
 
+      <TestimonialsSection />
+
       {}
       <ContactSection />
+
+      <MapSection />
     </main>
   );
 }
